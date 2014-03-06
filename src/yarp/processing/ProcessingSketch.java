@@ -61,7 +61,7 @@ public class ProcessingSketch extends PApplet {
 		bot.clear();
 		bot.addString("/mouse");
 		bot.addDouble((float)mX/screen_width);
-		bot.addDouble((float)mX/screen_height);
+		bot.addDouble((float)mY/screen_height);
 		port.write(bot);
 		background(0);	
 		fill(255);
