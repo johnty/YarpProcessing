@@ -27,7 +27,7 @@ public class ProcessingSketch extends PApplet {
 	public static void main(String[] args) {
 		//PApplet.main(new String[] {"--present", "ProcessingSketch"}); //full screen mode
 		
-		yarp.Loader.loadDll();
+		System.loadLibrary("jyarp");
 		yarp.Network.init();
 		PApplet.main(new String[] {"yarp.processing.ProcessingSketch"}); //windowed mode
 

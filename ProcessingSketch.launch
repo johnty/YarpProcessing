@@ -9,5 +9,5 @@
 </listAttribute>
 <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="yarp.processing.ProcessingSketch"/>
 <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="YarpProcessing"/>
-<stringAttribute key="org.eclipse.jdt.launching.WORKING_DIRECTORY" value="${workspace_loc:YarpProcessing/lib}"/>
+<stringAttribute key="org.eclipse.jdt.launching.WORKING_DIRECTORY" value="${workspace_loc:YarpProcessing}"/>
 </launchConfiguration>
